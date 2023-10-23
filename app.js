@@ -42,5 +42,5 @@ app.get("/*", (req, res) => {
 
 
 app.listen(3002, () => {
-    console.log("port 3002 is Running!!!");
+    console.log("port 3002 is Running ...");
 })
