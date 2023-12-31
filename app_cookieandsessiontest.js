@@ -10,7 +10,7 @@ const port = process.env.PORT;
 
 //3.設定 Routes
 app.use('/storage', cookiesessionRoutes);
-app.use("/test", testES6);
+// app.use("/test", testES6);
 
 //4設定 view engine 使用 ejs ，則 render 時就能不寫副檔名
 app.set("view engine", "ejs");

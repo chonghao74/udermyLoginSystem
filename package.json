@@ -2,10 +2,13 @@
   "name": "udermyloginsystem",
   "version": "1.0.0",
   "description": "初始化",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-app": "node app.js"
+    "start-app": "node app.js",
+    "start":"node app_cookieandsessiontest.js",
+    "start-es6": "node appES6.js"
   },
   "keywords": [],
   "author": "",
